@@ -15,6 +15,7 @@ Then run the following command to copy necessary files to yolov5 folder:
 - cp modified_detect.py yolov5/modified_detect.py
 - cp playing_cards.pt yolov5/playing_cards.pt
 - cd yolov5
+  
 Finally you could start the training by running:
 
 - train.py --img 800 --batch 8 --epochs 100 --data playing_cards.yaml --weights card.pt --rect
